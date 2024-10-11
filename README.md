@@ -68,19 +68,15 @@ a)	K-Nearest Neighbor (KNN) weight
 This is a non-parametric supervised learning classifier that uses the basis that instances of each class is surrounded by instances of the same class. 
 The training set of instances is given in feature space and a scalar k.  The unlabelled instance is classified by the most frequent label among the
 k-training samples neasrest to that instance. This is measured distance between instances, in this research Euclidean distance was used. 
-The formulation of Eucledian distance is displayed in image … below. The nearest k-measurment indicates significance weight in the dataset. 
-
 
 b)	Logistic regression (LR)
 Logistic regression is a discriminative model using the logit function an estimation on the probability the prediction is made. 
 In this research the Maximum Likelihood Estimation (MLE) was used.
 
-
 c)	Random forest (RF)
 Random Forests are an ensemble learning model for classification and consist of a high combination of decision trees at training time. 
 This improves the classification of a single tree classifier by combining bootstrap aggregating method and randomization in the selection 
-of data nodes in the creation of a decision tree. Bootstrap aggregating reduces the variance of a model to overcome issues associated with 
-overfitting the training sets with decision trees.
+of data nodes in the creation of a decision tree. Bootstrap aggregating reduces the variance of a model to overcome issues associated with overfitting the training sets with decision trees.
 
 d)	Naïve Bayes 
 Naïve Bayes applies the Bayes Theorem with the condition of naïve independence among predictors. 
